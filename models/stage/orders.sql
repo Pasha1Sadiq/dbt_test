@@ -1,6 +1,6 @@
 {{ config(
     schema= 'STAGE',
-    database= 'PC_MATILLION_DB' 
+    database= 'SADIQ_DBT' 
 )}}
 
-SELECT * FROM "PC_MATILLION_DB"."RAW"."ORDERS"
+SELECT * FROM "SADIQ_DBT"."RAW"."ORDERS"
